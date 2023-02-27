@@ -29,7 +29,7 @@ import SwiftUI
 /// A type that is defining every **Coordinator**.
 ///
 /// This protocol provides every coordinator with **view** that is coordinator presenting and optional **observedData**.
-protocol Coordinable {
+public protocol Coordinable {
     associatedtype Data: ObservableObject
     
     ///A default view for each coordinator
@@ -42,10 +42,10 @@ protocol Coordinable {
 }
 
 // MARK: Default implementation of the protocol
-extension Coordinable where Data == DefaultData {
+public extension Coordinable where Data == DefaultData {
     var observedData: Data {
         DefaultData()
     }
 }
 
-class DefaultData: ObservableObject {}
+public class DefaultData: ObservableObject {}
