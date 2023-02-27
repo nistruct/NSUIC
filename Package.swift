@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "NSUIC",
+    platforms: [
+      .iOS(.v13),
+    ],
     products: [
         .library(name: "NSUIC", targets: ["NSUIC"]),
     ],

@@ -24,7 +24,6 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
 import SwiftUI
 
 /// A type that is defining every **Coordinator**.
