@@ -2,7 +2,7 @@
 //  Coordinable.swift
 //  NSUIC
 //
-//  Created by Nikola Nikolic on 27.2.23..
+//  Created by Nikola Nikolic and Dusan Kovacevic on 27.2.23..
 //  Copyright © 2023 Nistruct doo
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
